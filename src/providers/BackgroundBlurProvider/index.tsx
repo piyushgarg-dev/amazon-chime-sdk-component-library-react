@@ -175,6 +175,7 @@ const BackgroundBlurProvider: FC<Props> = ({ spec, options, children }) => {
   const value: BackgroundBlurProviderState = {
     createBackgroundBlurDevice,
     isBackgroundBlurSupported,
+    processor
   };
 
   return (
